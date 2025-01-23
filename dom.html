@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+
+    </div>
+  
+
+    <!-- <p id="intro">My name is </p>
+    <p id="demo"></p> -->
+
+<!-- <p>my email is </p>
+<p id="demo"></p> -->
+
+<p class="intro">Hello World!</p>
+<p id="demo"></p>
+    <script>
+        // DOM stand document object model
+        // target (id,class,tagname)
+        // get (fetch)
+        // set (update,change) 
+        // (id,class,tagname)
+// document.getElementById("demo").innerHTML = "<h1>owais ali</h1>";
+// document.getElementById("demo").style.color = "red";
+
+// var element = document.getElementById("intro");
+// document.getElementById("demo").innerHTML = element.innerHTML + "faiz ali";
+
+// var element = document.getElementsByTagName("p");
+// document.getElementById("demo").innerHTML =  element[0].innerHTML + "shaikhfaiz793@gmail.com";
+
+var x = document.getElementsByClassName("intro");
+document.getElementById("demo").innerHTML = x[0].innerHTML + "<h3>aptech</h3>";
+    </script>
+
+</body>
+</html>
